@@ -18,6 +18,7 @@ terraform {
 provider "abbey" {
   # Configuration options
   bearer_auth = var.abbey_token
+  server_url = "http://localhost:8080/v1/"
 }
 
 resource "abbey_grant_kit" "abbey_demo_site" {
