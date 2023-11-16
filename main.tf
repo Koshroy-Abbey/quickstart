@@ -22,7 +22,7 @@ provider "abbey" {
 }
 
 resource "abbey_grant_kit" "abbey_demo_site_1" {
-  name = "Abbey_Demo_Site"
+  name = "Abbey_Demo_Site_1"
   description = <<-EOT
     Grants access to Abbey's Demo Page.
   EOT
