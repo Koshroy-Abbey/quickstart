@@ -1,8 +1,9 @@
 package common
 
-import data.abbey.functions
+#import data.abbey.functions
 
 allow[msg] {
-    functions.expire_after("5m")
+    group := data.system.abbey.group_memberships[_]
+    group == "Engineering"
     msg := "granting access for 5 minutes"
 }
