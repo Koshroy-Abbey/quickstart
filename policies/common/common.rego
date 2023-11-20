@@ -4,6 +4,6 @@ package common
 
 allow[msg] {
     group := data.system.abbey.group_memberships[_]
-    group == "Engineering"
+    group == "Marketing"
     msg := "granting access for 5 minutes"
 }
