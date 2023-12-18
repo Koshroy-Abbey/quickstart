@@ -4,4 +4,5 @@ import data.abbey.functions
 
 allow[msg] {
     data.user.github.username == "Koshroy-Abbey"
+    msg := "granting access"
 }
